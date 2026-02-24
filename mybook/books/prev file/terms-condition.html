@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var bloggingSiteURL = "topusa.online"; // Replace this with your actual site URL
+
+            // Update all occurrences of [Your Blogging Site] with the actual site URL
+            var elementsWithPlaceholder = document.querySelectorAll("*");
+            elementsWithPlaceholder.forEach(function(element) {
+                if (element.innerHTML.includes("[Your Blogging Site]")) {
+                    element.innerHTML = element.innerHTML.replace(/\[Your Blogging Site\]/g, bloggingSiteURL);
+                }
+                if (element.href && element.href.includes("[Your Blogging Site]")) {
+                    element.href = element.href.replace(/\[Your Blogging Site\]/g, bloggingSiteURL);
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Terms & Conditions</h1>
+    <p>These Terms and Conditions ("Terms") govern your access to and use of <span id="blogging-site-url">[Your Blogging Site]</span>, including any
+        content,
+        functionality, and services offered on or through <span id="blogging-site-url">[Your Blogging Site]</span> (the "Site"). Please read the Terms
+        carefully
+        before using the Site.</p>
+
+    <p>By accessing or using the Site, you agree to be bound by these Terms. If you do not agree to abide by these
+        Terms, you
+        must not access or use the Site.</p>
+
+    <h2>1. Intellectual Property Rights</h2>
+    <p>The Site and its original content, features, and functionality are owned by [Your Company Name] and are protected
+        by
+        international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights
+        laws.
+    </p>
+
+    <h2>2. User Contributions</h2>
+    <p>The Site may contain interactive features allowing users to post, submit, publish, display, or transmit to other
+        users
+        or other persons content or materials ("User Contributions") on or through the Site. All User Contributions must
+        comply
+        with the Content Standards set out in these Terms.</p>
+
+    <h2>3. Content Standards</h2>
+    <p>User Contributions must in their entirety comply with all applicable federal, state, local, and international
+        laws and regulations. Without limiting the foregoing, User Contributions must not:</p>
+    <ul>
+        <li>Contain any material that is defamatory, obscene, indecent, abusive, offensive, harassing, violent, hateful,
+            inflammatory, or otherwise objectionable.</li>
+        <li>Promote sexually explicit or pornographic material, violence, or discrimination based on race, sex,
+            religion, nationality, disability, sexual orientation, or age.</li>
+        <li>Infringe any patent, trademark, trade secret, copyright, or other intellectual property or other rights of
+            any other person.</li>
+        <li>Violate the legal rights (including the rights of publicity and privacy) of others or contain any material
+            that could give rise to any civil or criminal liability under applicable laws or regulations or that
+            otherwise may be in conflict with these Terms.</li>
+    </ul>
+    <h2>4. Privacy</h2>
+    <p>Your use of the Site is subject to <span id="blogging-site-url">[Your Blogging Site]</span>’s Privacy Policy. Please review our Privacy Policy, which
+        also governs the Site and informs users of our data collection practices</p>
+    <h2>5. Limitation of Liability</h2>
+    <p>In no event shall [Your Company Name], nor its directors, employees, partners, agents, suppliers, or affiliates,
+        be liable for any indirect, incidental, special, consequential, or punitive damages, including without
+        limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to
+        or use of or inability to access or use the Site; (ii) any conduct or content of any third party on the Site.
+    </p>
+    <h2>6. Governing Law</h2>
+    <p>These Terms shall be governed and construed in accordance with the laws of [Your Country], without regard to its
+        conflict of law provisions.</p>
+    <h2>7. Changes to Terms</h2>
+    <p>[Your Company Name] reserves the right, at its sole discretion, to modify or replace these Terms at any time. If
+        a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What
+        constitutes a material change will be determined at our sole discretion.
+
+        By continuing to access or use our Site after any revisions become effective, you agree to be bound by the
+        revised terms. If you do not agree to the new terms, you are no longer authorized to use the Site</p>
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions about these Terms, please  <a href="contact.html">Contact us</a>.</p>
+</body>
+
+</html>
